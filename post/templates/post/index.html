@@ -1,0 +1,9 @@
+<form method="GET">
+    <input type="text" class="textbox" name="pincode" placeholder="Enter Pincode" autocomplete="new-password"><br> 
+    <button type="submit">Submit</button>
+</form>
+
+{% if city %}
+    <p>City : {{ city }}</p>
+    <p>State : {{ state }}</p>
+{% endif %}
